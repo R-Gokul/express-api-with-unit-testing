@@ -9,7 +9,24 @@ module.exports.postAnalytics = async(req, res) =>{
     const insertObj= { eventType: req.body.eventType, user: req.body.user, date: req.body.date };
     const result = await Analytics.create(insertObj);
     console.log(result.id);
-    res.send({"ingested" : result.id});
+    res.status(201).send({"ingested" : result.id});
+    } catch (error) {
+        res.status(400).send({"message" :"Some error occurred"});
+    }
+}
+module.exports.getAnalytics = async(req, res) =>{
+    try {
+    const result = await Analytics.findAll();
+    console.log(result.id);
+    res.status(200).send( result);
+    } catch (error) {
+        res.status(400).send({"message" :"Some error occurred"});
+    }
+}
+module.exports.notAllow = async(req, res) =>{
+    try {
+    
+    res.status(405).send({"message" :"API dose not allow deleting or modifying events"});
     } catch (error) {
         res.status(400).send({"message" :"Some error occurred"});
     }
