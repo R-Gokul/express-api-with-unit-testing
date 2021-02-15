@@ -1,32 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="1.3770" tests="8" failures="3">
-  <testsuite name="Root Suite" timestamp="2021-01-16T15:17:48" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="0.0010" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-02-14T17:49:47" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="analytics_api_medium" timestamp="2021-01-16T15:17:48" tests="8" file="/home/gokul/hackerRank/e52c8f63-f4d4-4d0a-a32a-c1a5e53f7221/test/index.spec.js" time="1.3770" failures="3">
-    <testcase name="analytics_api_medium should ingest all the data correctly" time="0.3300" classname="should ingest all the data correctly">
+  <testsuite name="math.js tests" timestamp="2021-02-14T17:49:47" tests="0" file="/home/gokul/hackerRank/Node JS tesing/test/math.test.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="math.division() Test" timestamp="2021-02-14T17:49:47" tests="4" file="/home/gokul/hackerRank/Node JS tesing/test/math.test.js" time="0.0010" failures="0">
+    <testcase name="math.js tests math.division() Test should throw error" time="0.0010" classname="should throw error">
     </testcase>
-    <testcase name="analytics_api_medium should avoid duplicated and return all the ingested events correctly" time="0.2000" classname="should avoid duplicated and return all the ingested events correctly">
-    </testcase>
-    <testcase name="analytics_api_medium should ingest click events only once per user every 3 seconds" time="0.1850" classname="should ingest click events only once per user every 3 seconds">
-      <failure message="expected 4 to deeply equal 1" type="AssertionError"><![CDATA[AssertionError: expected 4 to deeply equal 1
-    at Context.<anonymous> (test/index.spec.js:104:40)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)]]></failure>
-    </testcase>
-    <testcase name="analytics_api_medium should ingest pageView events only once per user every 5 seconds" time="0.1460" classname="should ingest pageView events only once per user every 5 seconds">
-      <failure message="expected 4 to deeply equal 1" type="AssertionError"><![CDATA[AssertionError: expected 4 to deeply equal 1
-    at Context.<anonymous> (test/index.spec.js:113:40)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)]]></failure>
-    </testcase>
-    <testcase name="analytics_api_medium should return the ingested events count correctly after few iterations" time="0.3100" classname="should return the ingested events count correctly after few iterations">
-      <failure message="expected 7 to deeply equal 5" type="AssertionError"><![CDATA[AssertionError: expected 7 to deeply equal 5
-    at Context.<anonymous> (test/index.spec.js:126:38)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)]]></failure>
-    </testcase>
-    <testcase name="analytics_api_medium should get 405 for a put request to /analytics/:id" time="0.0640" classname="should get 405 for a put request to /analytics/:id">
-    </testcase>
-    <testcase name="analytics_api_medium should get 405 for a delete request to /analytics/:id" time="0.0230" classname="should get 405 for a delete request to /analytics/:id">
-    </testcase>
-    <testcase name="analytics_api_medium should get 405 for a patch request to /products/:id" time="0.1190" classname="should get 405 for a patch request to /products/:id">
+    <testcase name="math.js tests math.division() Test should throw error division by zero" time="0.0000" classname="should throw error division by zero">
     </testcase>
   </testsuite>
 </testsuites>
