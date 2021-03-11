@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.0010" tests="4" failures="0">
-  <testsuite name="Root Suite" timestamp="2021-02-14T17:49:47" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="0.0000" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-03-11T18:17:27" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="math.js tests" timestamp="2021-02-14T17:49:47" tests="0" file="/home/gokul/hackerRank/Node JS tesing/test/math.test.js" time="0.0000" failures="0">
-  </testsuite>
-  <testsuite name="math.division() Test" timestamp="2021-02-14T17:49:47" tests="4" file="/home/gokul/hackerRank/Node JS tesing/test/math.test.js" time="0.0010" failures="0">
-    <testcase name="math.js tests math.division() Test should throw error" time="0.0010" classname="should throw error">
+  <testsuite name="Min Max" timestamp="2021-03-11T18:17:27" tests="4" file="/home/gokul/hackerRank/Node JS tesing/test/minMax.test.js" time="0.0000" failures="0">
+    <testcase name="Min Max min value 1" time="0.0000" classname="min value 1">
     </testcase>
-    <testcase name="math.js tests math.division() Test should throw error division by zero" time="0.0000" classname="should throw error division by zero">
+    <testcase name="Min Max min value -4" time="0.0000" classname="min value -4">
+    </testcase>
+    <testcase name="Min Max max value 0" time="0.0000" classname="max value 0">
+    </testcase>
+    <testcase name="Min Max min value 4" time="0.0000" classname="min value 4">
     </testcase>
   </testsuite>
 </testsuites>
