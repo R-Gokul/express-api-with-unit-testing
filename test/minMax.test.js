@@ -1,21 +1,13 @@
-const expect = require('chai').expect;
-const { minMax } =  require('../minMax');
+const expect = require("chai").expect;
+const { minMax}=  require("../minMax");
 
-describe("Min Max",()=>{
-    it("min value 1", ()=>{
-        const [min, max] = minMax([1,2,3,3,33,4]);
-        expect(min).to.equal(1)
+describe("Min max of array testing", ()=>{
+    it("Min Should be 1", ()=>{
+        const [min, max] = minMax([1,2,2,3,4,5,8])
+        expect(min).to.equals(1);
     })
-    it("min value -4", ()=>{
-        const [min, max] = minMax([-1,1,2,3,3,33,-4]);
-        expect(min).to.equal(-4)
+    it("Maz Should be 8", ()=>{
+        const [min, max] = minMax([1,2,2,3,4,5,8])
+        expect(max).to.equals(8);
     })
-    it("max value 0", ()=>{
-        const [min, max] = minMax([-1,-2,-3,0]);
-        expect(max).to.equal(0)
-    })
-    it("min value 4", ()=>{
-        const [min, max] = minMax([1,2,3,3,-4,4]);
-        expect(max).to.equal(4)
-    })
-})
+});

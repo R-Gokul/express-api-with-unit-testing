@@ -1,15 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.0000" tests="4" failures="0">
-  <testsuite name="Root Suite" timestamp="2021-03-11T18:17:27" tests="0" time="0.0000" failures="0">
-  </testsuite>
-  <testsuite name="Min Max" timestamp="2021-03-11T18:17:27" tests="4" file="/home/gokul/hackerRank/Node JS tesing/test/minMax.test.js" time="0.0000" failures="0">
-    <testcase name="Min Max min value 1" time="0.0000" classname="min value 1">
-    </testcase>
-    <testcase name="Min Max min value -4" time="0.0000" classname="min value -4">
-    </testcase>
-    <testcase name="Min Max max value 0" time="0.0000" classname="max value 0">
-    </testcase>
-    <testcase name="Min Max min value 4" time="0.0000" classname="min value 4">
-    </testcase>
-  </testsuite>
+<testsuites name="Mocha Tests" time="0.0000" tests="0" failures="0">
 </testsuites>
